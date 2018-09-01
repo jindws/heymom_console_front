@@ -20,7 +20,7 @@ DBF.defaultdeal = (resp)=>{
     })
 }
 
-let prefix = '/crm'
+let prefix = ''
 
 DBF.create('ImgTxt', {
     list:{
