@@ -6,7 +6,8 @@ module.exports = {
 		app: './src/app.jsx'
 	},
 	output: {
-		path: path.resolve(__dirname, './dist'),
+		// path: path.resolve(__dirname, './dist'),
+		path: '/static/crm',
 		filename: '[name].js',
 		chunkFilename: '[name].js',
 		publicPath:'crm/',
