@@ -1,0 +1,41 @@
+.ztfx{
+  margin-top: 40px;
+}
+.ztfx-download{
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    color:#108ee9;
+    padding:0 20px;
+    cursor: pointer;
+}
+.datepicker-t{
+  width: 250px;
+  position: absolute;
+  left: 0px;
+  border-right: 1px solid #ccc;
+}
+.datepicker-t .ant-calendar-picker-input{
+  margin-top: 5px;
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 230px;
+  cursor: pointer;
+  box-shadow: none;
+}
+ .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.ztfx-b .ant-table-pagination {
+    margin: 16px 0;
+    float: right;
+    margin-right: 15px;
+}

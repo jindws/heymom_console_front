@@ -1,0 +1,128 @@
+.operate-title{
+    line-height: 65px;
+    font-size: 16px;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+}
+.operate-content{
+    padding:20px;
+    -webkit-font-smoothing: antialiased;
+    & .opt-wrap{
+        padding: 10px 0;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    & .opt-message{
+        position: relative;
+        padding:40px 20px;
+        & .operate-overlay{
+            position: absolute;
+            top:0;
+            right:0;
+            bottom: 0;
+            left:0;
+            background: #f7f7f7;
+            opacity: 0.5;
+            z-index: 1;
+        }
+        & .opt-tip{
+            color:#9a9a9a;
+            font-size: 14px;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            border-bottom: 1px dashed #e7e7eb;
+        }
+        & .opt-content{
+            display: flex;
+            align-items: center;
+            & .opt-right{
+                flex:3;
+                border-radius: 5px;
+                padding: 25px 30px;
+                border: 0;
+                background: #f6f8f9;
+                & .opt-right-title{
+                    font-weight: 400;
+                    padding: 10px 0;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    border-top: 1px solid #e7e7e7;
+                }
+                & .opt-right-content{
+                    border-radius: 4px;
+                    background: #fff;
+                    padding: 5px 20px;
+                    height: 250px;
+                    overflow: auto;
+                    position: relative;
+                    & li{
+                        font-size: 14px;
+                        display: block;
+                        line-height: 50px;
+                        padding-left: 12px;
+                        margin-right: 0;
+                    }
+                    & .opt-color{
+                        position: absolute;
+                        right:0;
+                        top:1px;
+                        width:40px;
+                        border: 3px solid #FFF;
+                        height: 30px;
+                        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 10px, rgba(0, 0, 0, 0.16) 0px 2px 5px;
+                        border-radius: 2px;
+                    }
+                }
+            }
+            & .opt-left{
+                flex:2;
+                border: 1px solid #e7e7eb;
+                border-radius: 5px;
+                margin-right: 40px;
+                & .opt-yulan{
+                    height: 74px;
+                    color: #9a9a9a;
+                    font-size: 13px;
+                    display: flex;
+                    align-items: center;
+                    & img{
+                        width:32px;
+                        margin: 0 20px 0 32px;
+                    }
+                }
+                & .opt-left-content{
+                    border-top: 1px solid #e7e7e7;
+                    border-bottom: 1px solid #e7e7e7;
+                    min-height: 300px;
+                    padding: 15px;
+                    & .opt-setting-title{
+                        color: #353535;
+                        font-size: 14px;
+                    }
+                    & .opt-setting-item{
+                        color:#9a9a9a;
+                        font-size: 13px;
+                        display: flex;
+                        margin-bottom: 5px;
+                        & .osc-left{
+                            flex:1;
+                        }
+                        & .osc-right{
+                            flex:3;
+                            color:#353535;
+                        }
+                    }
+                }
+                & .opt-left-bottom{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color:#9a9a9a;
+                    font-size: 14px;
+                    height: 40px;
+                    padding: 0 15px;
+                }
+
+            }
+        }
+    }
+}

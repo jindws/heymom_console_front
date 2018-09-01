@@ -1,0 +1,125 @@
+.icon-jieshi{
+  position: absolute;
+  top: 44px;
+  left: 110px;
+}
+
+
+.tab .flex1:last-child .tab-t{
+    border-right: none;
+}
+.invtotal-wrap .tab-body{
+  width: auto;
+}
+.invtotal-wrap .tab{
+    margin:40px 0 30px 0;
+    width: 100%;
+    color: #222;
+}
+
+.invtotal-title {
+  line-height: 65px;
+  font-size: 16px;
+  padding: 0 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.invtotal-content {
+  position: relative;
+  padding: 30px;
+}
+.invtotal .ant-select-selection{
+    background: #f4f5f9;
+}
+.invtotal .ant-calendar-picker-input, .ant-select-selection{
+    margin-top: 0px;
+}
+.bd_ccc{
+    border: 1px solid #ccc;
+}
+.invtotal-t{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #f4f5f9;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.dateselector{
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    left: 0;
+    border-right: 1px solid #ccc;
+}
+.invtotal .ant-select-selection {
+    border-radius: 0;
+    border: 0;
+    background:#F4F5F9;
+    font-size: 14px;
+    width: 100px;
+    margin-top: 5px;
+    box-shadow: none !important;
+}
+.invtotal .ant-calendar-picker-input {
+    margin-top: 5px;
+    border-radius: 0;
+    border: 0;
+    background:#F4F5F9;
+    font-size: 14px;
+    width: 230px;
+    cursor: pointer;
+    box-shadow: none;
+}
+.invtotal .ant-select-lg .ant-select-selection--single{
+    width: 120px;
+}
+.datepicker{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    left: 140px;
+    border-right: 1px solid #ccc;
+}
+.invtotal .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.invtotal-table{
+    margin-top: 40px;
+    position: relative;
+}
+.invtotal-download{
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    color:#108ee9;
+    padding:0 20px;
+    cursor: pointer;
+}
+.datepicker-t{
+    width: 250px;
+    position: absolute;
+    left: 0px;
+    border-right: 1px solid #ccc;
+}
+.datepicker-t .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.ant-table-pagination {
+    margin: 16px;
+    float: right;
+}

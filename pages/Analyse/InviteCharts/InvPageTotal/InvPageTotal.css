@@ -1,0 +1,154 @@
+.InvPageTotal .InvPageTotal-title{
+  line-height: 65px;
+  font-size: 16px;
+  padding: 0 30px;
+  border-bottom: 1px solid #ddd;
+}
+.InvPageTotal .InvPageTotal-container{
+  padding: 30px;
+}
+.InvPageTotal .yst-zb-body > .flex-h{
+    width: 100%;
+    text-align: center;
+}
+.InvPageTotal .flex-h > .flex1{
+    padding: 0 25px;
+}
+.InvPageTotal-Echarts .ant-select-selection{
+    background: #f4f5f9;
+}
+.InvPageTotal-Echarts  .ant-calendar-picker-input .ant-select-selection{
+    margin-top: 0px;
+}
+.InvPageTotal-Echarts .tab-body{
+  width: 938px;
+}
+.InvPageTotal .bd_ccc{
+  border: 1px solid #ccc;
+}
+.InvPageTotal-Echarts .time-echarts-div{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #f4f5f9;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.InvPageTotal-Table .time-table-div{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #f4f5f9;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.InvPageTotal-Echarts .dateselector{
+  height: 40px;
+  width: 140px;
+  position: absolute;
+  left: 0;
+  border-right: 1px solid #ccc;
+}
+.InvPageTotal-Echarts .ant-select-selection {
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 100px;
+  margin-top: 5px;
+  box-shadow: none !important;
+}
+.InvPageTotal-Echarts .ant-calendar-picker-input {
+  margin-top: 5px;
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 230px;
+  cursor: pointer;
+  box-shadow: none;
+}
+.InvPageTotal-Echarts .ant-select-lg .ant-select-selection--single{
+  width: 120px;
+}
+.InvPageTotal-Echarts .datepicker{
+  width: 250px;
+  height: 40px;
+  position: absolute;
+  left: 140px;
+  border-right: 1px solid #ccc;
+}
+.InvPageTotal-Echarts .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.InvPageTotal .yqkymhz{
+  margin-top: 40px;
+}
+.InvPageTotal-Table .ztfx-download{
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    color:#108ee9;
+    padding:0 20px;
+    cursor: pointer;
+}
+.InvPageTotal-Table .datepicker-t{
+  width: 250px;
+  position: absolute;
+  left: 0px;
+  border-right: 1px solid #ccc;
+}
+.InvPageTotal-Table .datepicker-t .ant-calendar-picker-input{
+  margin-top: 5px;
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 230px;
+  cursor: pointer;
+  box-shadow: none;
+}
+.InvPageTotal-Echarts .datepicker-t .ant-calendar-picker-input{
+  margin-top: 5px;
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 230px;
+  cursor: pointer;
+  box-shadow: none;
+}
+ .InvPageTotal-Table .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.InvPageTotal-Table .yqkymhz-b .ant-table-pagination {
+    margin: 16px 0;
+    float: right;
+    margin-right: 15px;
+}
+.InvPageTotal-Echarts .tab-body {
+  height: 50px;
+}
+.InvPageTotal-Echarts .tab-body .tab-t{
+  height: 48px;
+  line-height: 25px;
+  padding: 0 27px;
+}
+.InvPageTotal-Echarts .tab-body  .bd-ccc{
+  height: 50px;
+}
+.InvPageTotal-Echarts .tab-body .flex-h>.flex1{
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+.mul {
+    .operate {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            margin: 2px 0;
+        }
+    }
+}
+
+.ant-select-dropdown-menu {
+    overflow: {
+        x: hidden;
+        y: scroll;
+    }
+}

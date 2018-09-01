@@ -1,0 +1,55 @@
+$border: 1px solid #ddd;
+
+#order {
+    thead {
+        tr {
+            :nth-child(1) {
+                text-align: center;
+                display: block;
+            }
+        }
+    }
+
+    tbody tr {
+        > :nth-child(2) {
+            text-align: right;
+        }
+    }
+}
+
+.order-wrap {
+    position: relative;
+
+    > p {
+        line-height: 65px;
+        font-size: 16px;
+        padding: 0 30px;
+        border-bottom: 1px solid $border;
+    }
+
+    .addbth {
+        float: left;
+        margin: 20px 30px;
+    }
+
+    .ow-table-wrap {
+        margin: 30px;
+
+        .ow-row-name {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .ow-head {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .ant-table-tbody > tr > td {
+        vertical-align: middle!important;
+    }
+}

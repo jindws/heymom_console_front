@@ -1,0 +1,18 @@
+.header {
+    border-top: 4px solid #dc2832;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    & div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        color: #b3b6b7;
+        flex:0 0 600px;
+    }
+    & .right{
+      justify-content: flex-end;
+    }
+}

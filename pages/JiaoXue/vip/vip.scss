@@ -1,0 +1,260 @@
+$border: 1px solid #ddd; //
+// .ql-audio {
+//     background: {
+//         image: url("./audio.png") !important;
+//         size: contain !important;
+//         repeat: no-repeat !important;
+//         position: center !important;
+//     }
+// }
+
+.kc_moddal .ant-modal-body {
+    > section > p {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .ant-upload-select-text {
+            display: inline;
+        }
+        // span {
+        //     flex: 1;
+        // }
+    }
+
+    .ant-upload-list-item {
+        display: none;
+
+        &.show {
+            display: block;
+        }
+    }
+
+    i {
+        font-style: italic;
+    }
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.add-course {
+    p.course-title {
+        line-height: 65px;
+        font-size: 16px;
+        padding: 0 30px;
+        border-bottom: $border;
+    }
+
+    .add-course-container {
+        margin: 0 60px;
+        padding: 30px 0;
+        position: relative;
+
+        .add-input-wrap {
+            padding: 15px 0;
+
+            .add-input-label {
+                display: block;
+                width: 90px;
+                font-size: 14px;
+                float: left;
+                margin-top: 4px;
+            }
+
+            .add-input {
+                width: 500px;
+                float: left;
+            }
+
+            .big-video-process {
+                float: left;
+                width: 500px;
+                margin: 10px 0 0 90px;
+                display: none;
+                background: #e2e2e2;
+                border-left-style: solid;
+                border-left-color: #108ee9;
+                border-radius: 10px;
+                height: 10px;
+                line-height: 10px;
+            }
+
+            .show-input {
+                height: 30px;
+                line-height: 30px;
+            }
+        }
+
+        .course-big-pic {
+            .ant-upload-list-picture-card .ant-upload-list-item,
+            .ant-upload.ant-upload-select-picture-card {
+                width: 750px;
+                height: 300px;
+            }
+        }
+
+        .course-small-pic {
+            .ant-upload-list-picture-card .ant-upload-list-item,
+            .ant-upload.ant-upload-select-picture-card {
+                width: 240px;
+                height: 140px;
+            }
+        }
+    }
+
+    .course-delete-btn {
+        position: absolute;
+        right: 80px;
+        top: 80px;
+    }
+
+    .course-edit-btn {
+        position: absolute;
+        right: 80px;
+        top: 40px;
+    }
+
+    .course-default-btn {
+        position: absolute;
+        right: 80px;
+        top: 120px;
+    }
+    // 富文本编辑器的样式
+    .home-wrapper {
+        border-radius: 20px;
+        border: 5px solid #d9d9d9;
+
+        .home-toolbar {
+            border-radius: 14px;
+            margin: 0;
+            border: none;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        .home-editor {
+            // height:550px;
+            .DraftEditor-root {
+                height: 537px;
+            }
+        }
+    }
+
+    .fuwenben-wrap {
+        .course-draft-content {
+            width: 50%;
+            height: 688px;
+            float: right;
+            background-image: url("https://cdn.xueyuan.xiaobao100.com/shield/image/phone.png");
+            background-position: center -21px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+            .course-draft-item {
+                width: 291px;
+                height: 515px;
+                margin: 83px 0 0 42px;
+                overflow: auto;
+            }
+        }
+
+        img {
+            width: 100%!important;
+        }
+    }
+
+    .show-content-wrap {
+        > ul {
+            > li {
+                height: auto;
+                width: 156px;
+            }
+        }
+    }
+}
+
+.ql-container {
+    min-height: 400px!important;
+}
+
+.ql-editor {
+    min-height: 400px!important;
+}
+$border: 1px solid #ddd;
+
+.course-wrap {
+    position: relative;
+
+    > p {
+        line-height: 65px;
+        font-size: 16px;
+        padding: 0 30px;
+        border-bottom: $border;
+    }
+
+    .addbth {
+        float: left;
+        margin: 20px 30px;
+    }
+
+    dl {
+        margin: 0 30px;
+        border: $border;
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                flex: 1 0;
+                padding: 0 10px;
+                text-align: center;
+            }
+        }
+
+        dt {
+            background-color: #f4f5f9;
+
+            ul {
+                height: 40px;
+            }
+        }
+
+        dd {
+            border-top: $border;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+
+            ul {
+                flex: 1;
+                display: flex;
+                height: 50px;
+                position: relative;
+                margin-bottom: 0;
+
+                li {
+                    padding: 20px 10px;
+                    width: 100px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                    flex-wrap: wrap;
+                    // & > img {
+                    //     max-width: 100%;
+                    //     max-height: 120px;
+                    // }
+                }
+            }
+        }
+    }
+}

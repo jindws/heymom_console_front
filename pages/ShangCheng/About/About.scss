@@ -1,0 +1,16 @@
+.about {
+    > div {
+        display: flex;
+        height: 500px;
+
+        span {
+            flex-basis: 70px;
+        }
+    }
+
+    > button {
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+}

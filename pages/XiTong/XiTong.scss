@@ -1,0 +1,72 @@
+.lecturer {
+    .ant-spin-container dl {
+        border: 1px solid #ddd;
+    }
+
+    .ant-alert {
+        margin-top: 20px !important;
+    }
+
+    dl {
+        margin: 20px 30px;
+        position: relative;
+
+        dt {
+            background-color: #f4f5f9;
+            height: 40px;
+        }
+
+        dd,
+        dt {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        dd {
+            border-top: 1px solid #ddd;
+
+            button {
+                margin: 10px;
+            }
+        }
+
+        span {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        div {
+            flex: 1;
+        }
+    }
+
+    > button {
+        margin: 11px 0 0 30px;
+    }
+
+    &__edit {
+        dd {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+
+            label {
+                flex: 0 0 60px;
+            }
+
+            div {
+                flex: 1;
+            }
+        }
+
+        &__introduce {
+            align-self: flex-start;
+        }
+    }
+
+    .ant-pagination {
+        text-align: center;
+    }
+}

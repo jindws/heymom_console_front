@@ -1,0 +1,18 @@
+#channel {
+    dd {
+        ul {
+            height: 100px !important;
+
+            li:last-child {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                button {
+                    // margin: 0 20px;
+                    flex-basis: 40%;
+                }
+            }
+        }
+    }
+}

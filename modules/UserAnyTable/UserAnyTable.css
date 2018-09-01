@@ -1,0 +1,49 @@
+.yhfx{
+  margin-top: 40px;
+}
+.yhfx-t{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #f4f5f9;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.yhfx-download{
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    color:#108ee9;
+    padding:0 20px;
+    cursor: pointer;
+}
+.datepicker-u{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    border-right: 1px solid #ccc;
+}
+.datepicker-u .ant-calendar-picker-input {
+    border-radius: 0;
+    border: 0;
+    background: #F4F5F9;
+    font-size: 14px;
+    color: #676767;
+    letter-spacing: 0;
+    width: 230px;
+    height: 40px;
+    cursor: pointer;
+}
+.datepicker-u .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.ant-table-pagination {
+    margin: 16px;
+    float: right;
+}

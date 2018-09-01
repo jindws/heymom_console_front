@@ -1,0 +1,32 @@
+.ztfx{
+    margin-top: 40px;
+    position: relative;
+}
+.ztfx-download{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    color:#108ee9;
+    padding:0 20px;
+    cursor: pointer;
+}
+.datepicker-t{
+    width: 250px;
+    position: absolute;
+    left: 0px;
+    border-right: 1px solid #ccc;
+}
+.datepicker-t .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+.ant-table-pagination {
+    margin: 16px;
+    float: right;
+}

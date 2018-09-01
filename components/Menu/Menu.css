@@ -1,0 +1,103 @@
+:root {
+    --border: 1px solid #e7e7eb;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    & .contain {
+        flex-basis: 1000px;
+        background-color: #fff;
+        overflow-x: hidden;
+    }
+    & .menu {
+        background-color: #fff;
+        line-height: 34px;
+        font-size: 14px;
+        text-indent: 58px;
+        min-height: 1500px;
+        padding: 20px 0;
+        border-right: var(--border);
+        flex-basis: 200px;
+        & .on {
+            background-color: #dc2832 !important;
+            & a {
+                color: #fff;
+                background-color: transparent !important;
+                z-index: 20;
+            }
+            & i:before {
+                color: #fff;
+            }
+        }
+        & .on:hover {
+            @extend .on;
+        }
+        & dt {
+            color: #8d8d8d;
+            border-top: 1px solid #e7e7eb;
+            position: relative;
+            height: 47px;
+            line-height: 47px;
+            & a {
+                color: #222;
+                text-decoration: none;
+            }
+            & i {
+                position: absolute;
+                left: -22px;
+                top: 14px;
+                color: #bebebe;
+                z-index: 19;
+                &:before {
+                    font-size: 18px;
+                }
+            }
+            &:first-of-type {
+                border-top: 0;
+            }
+            & a {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            & a:hover {
+                background-color: #f4f5f9;
+            }
+        }
+        & dd {
+            position: relative;
+            height: 34px;
+            & a {
+                color: #222;
+                text-decoration: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        & dd:hover {
+            background-color: #f4f5f9;
+        }
+    }
+    /*&__contain {
+        flex: 0 0 1000px;
+        background-color: #fff;
+    }*/
+}
+
+
+/*#topBanner {
+    line-height: 65px;
+    font-size: 16px;
+    padding: 0 30px;
+    border-bottom: var(--border);
+}*/

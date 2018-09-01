@@ -1,0 +1,15 @@
+.yeaterday-wrap{
+    color: #333;
+    margin-bottom: 40px;
+    & .yc-wrap{
+        display: flex;
+        & .yc-item{
+            flex:1;
+            text-align: center;
+            & .yc-num{
+                font-size: 30px;
+                color: #676767;
+            }
+        }
+    }
+}

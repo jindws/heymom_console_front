@@ -1,0 +1,65 @@
+#search {
+    background: #fbe1e1;
+    padding: 10px;
+    margin: 20px;
+
+    dl {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+
+        dd {
+            flex-basis: 33%;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+
+            > span {
+                flex-basis: 70px;
+            }
+
+            .ant-calendar-picker {
+                flex: 1;
+            }
+
+            input {
+                flex-basis: 150px;
+            }
+        }
+    }
+
+    > div {
+        text-align: center;
+
+        button {
+            margin: 0 10px;
+        }
+    }
+}
+
+ol {
+    -webkit-padding-start: 0;
+}
+
+#progress_list {
+    height: auto;
+    padding: 10px 0;
+
+    li {
+        flex: 1;
+    }
+
+    .mul {
+        flex: 5;
+        display: block;
+
+        ol {
+            display: flex;
+            padding: 10px 0;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid #e7e7eb;
+            }
+        }
+    }
+}

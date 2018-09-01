@@ -1,0 +1,95 @@
+.course-single {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: inherit;
+  line-height: 65px;
+  font-size: 16px;
+  padding: 0 30px;
+  border-bottom: 1px solid #E7E7EB;
+}
+
+
+
+.table-top {
+  width: 933px;
+  margin-top: 35px;
+  margin-left: 2.7%;
+  overflow: hidden;
+  border: 1px #E7E7E7 solid;
+}
+
+.dates-download {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background-color: #F4F5F9;
+  border-bottom: 1px solid #ccc;
+}
+
+.top-text {
+  width: 60px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin-left: 20px;
+  width: 359px;
+}
+
+.table-question {
+  width: 60px;
+}
+
+.download {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  color: #6ab2ec;
+  top:0;
+}
+
+.download:hover {
+  cursor: pointer;
+}
+.course-single .ant-table-pagination {
+    margin: 16px 0;
+    float: right;
+    margin-right: 15px;
+}
+
+.mydatepicker {
+  width: 230px;
+}
+
+.course-single .ant-calendar-picker-input {
+  border-radius: 0;
+  border: 0;
+  background: #F4F5F9;
+  font-size: 14px;
+  color: #676767;
+  letter-spacing: 0;
+  width: 230px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.course-single .ant-table-thead>tr>th {
+  background: #ffffff !important;
+  border-bottom: 1px #E7E7E7 solid;
+}
+.ant-table-pagination {
+    margin: 16px 0;
+    float: right;
+    margin-right: 15px;
+}

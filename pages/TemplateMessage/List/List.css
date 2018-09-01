@@ -1,0 +1,12 @@
+.message-content{
+    padding:20px;
+    & th, & td{
+        text-align: center!important;
+    }
+}
+.message-title{
+    line-height: 65px;
+    font-size: 16px;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+}
