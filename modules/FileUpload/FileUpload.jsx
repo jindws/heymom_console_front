@@ -169,7 +169,7 @@ class FileUpload extends Component {
         if (this.state.ossFile) {
             let formData = new FormData()
             formData.append('files',this.state.ossFile)
-            fetch('/crm/api/uploadfile',{
+            fetch('/api/uploadfile',{
                 method: "POST",
                 body: formData
             }).then(data=>data.json()).then(({data})=>{

@@ -32,7 +32,7 @@ export default class UploadModule extends Component {
     ossAnnex(file, key) {
         const t = this;
 
-        fetch('/crm/api/aliyun/oss_sts_token')
+        fetch('/api/aliyun/oss_sts_token')
         .then(data => data.json())
         .then(async (result)=>{
             var client = new OSS.Wrapper({
