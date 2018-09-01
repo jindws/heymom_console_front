@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --progress --open --hot --mode development",
     "start2": "webpack-dev-server --progress --config webpack.pro.js --open --hot --mode development",
-    "pro": "webpack --progress --config webpack.pro.js --mode production"
+    "pro": "webpack --progress --config webpack.pro.js --mode development"
   },
   "repository": {
     "type": "git",

@@ -57,30 +57,14 @@ class About extends Component {
         const fileName = file.name
         let formData = new FormData()
         formData.append('files',file)
-        fetch('/crm/api/uploadfile',{
+        fetch('/api/uploadfile',{
             method: "POST",
             body: formData
         }).then(data=>data.json()).then(({data})=>{
-            // this.setState({
-            //     preview:data.src
-            // })
-            // this.props.get(data.src);
-
             const link = data.src
             let editor = t.refs.editor2.getEditor()
             let sel = editor.getSelection()
             editor.clipboard.dangerouslyPasteHTML(sel.index, `<img src="${link}"/>` || '');
-
-            // let editor = (editkc.show?t.editor:t.editor2).getEditor()
-            // let sel = editor.getSelection()
-            //
-            // if(type === 'image'){
-            //     editor.clipboard.dangerouslyPasteHTML(sel.index, `<img src="${link}"/>` || '');
-            // }
-            //
-            // if(type === 'audio'){
-            //      editor.clipboard.dangerouslyPasteHTML(sel.index, `<iframe src=${link}></iframe>` || '');
-            // }
         })
     }
 
